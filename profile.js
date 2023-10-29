@@ -37,16 +37,7 @@ $(document).ready(function(){
                     `
                 }
             });
-            $("#profile").html(htmls.join(''));
-        }
-    })
-
-    $.ajax({
-        type: 'GET',
-        url: './data.json',
-        dataType: 'json',
-        success: function(info){
-            const htmls = info.map(data => {
+            const others = info.map(data => {
                 if (id != data.id){
                     return `
                         <a href="profile.html?id=`+ data.id +`">
@@ -55,7 +46,8 @@ $(document).ready(function(){
                     `
                 }
             });
-            $("#members").html(htmls.join(''));
+            $("#profile").html(htmls.join(''));
+            $("#members").html(others.join(''));
         }
     })
 })
