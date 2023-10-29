@@ -1,6 +1,15 @@
 var url = "./data.json"
 var query = window.location.search.substring(1);
 var id = query.split('=')[1]
+
+const copyClipboard = async (text) => {
+    try {
+        await navigator.clipboard.writeText(text);
+        alert("Text copied to clipboard");
+    } catch (err) {
+        console.error('Failed to copy: ', err);
+    }
+}
 $(document).ready(function(){
 
     $.ajax({
@@ -23,7 +32,7 @@ $(document).ready(function(){
                                     <h2>Contact Information</h2>
                                     <hr>
                                     <p>Email: <a href="mailto:`+data.email+`">`+data.email+`</a></p>
-                                    <p>Số điện thoại: <a href="#">`+data.phone+`</a></p>
+                                    <p>Số điện thoại: <a onclick="copyClipboard(`+data.phone+`)">`+data.phone+`</a></p>
                                 </div>
                                 <div class="InfoSocial">
                                     <h2>Social Media</h2>
