@@ -1,0 +1,52 @@
+[
+    {
+        "id": "21520390",
+        "name": "Trần Nhựt Phát",
+        "age": "20",
+        "image": "./images/avt1.jpg",
+        "email": "21520390@gm.uit.edu.vn",
+        "phone": "1111111111",
+        "description": "Student",
+        "AboutMe": "I am a web developer with a passion for creating beautiful and functional websites."
+    },
+    {
+        "id": "21520419",
+        "name": "Phạm Ngọc Quí",
+        "age": "20",
+        "image": "./images/avt2.png",
+        "email": "21520419@gm.uit.edu.vn",
+        "phone": "2222222222",
+        "description": "Student",
+        "AboutMe": "I am a web developer with a passion for creating beautiful and functional websites."
+    },
+    {
+        "id": "21520613",
+        "name": "Nguyễn Hoàng Quốc Bảo",
+        "age": "20",
+        "image": "./images/avt3.jpg",
+        "email": "21520613@gm.uit.edu.vn",
+        "phone": "3333333333",
+        "description": "Student",
+        "AboutMe": "I am a web developer with a passion for creating beautiful and functional websites."
+    },
+    {
+        "id": "19522036",
+        "name": "Nguyễn Đình Hoàng Phúc",
+        "age": "22",
+        "image": "./images/avt4.jpg",
+        "email": "19522036@gm.uit.edu.vn",
+        "phone": "4444444444",
+        "description": "Student",
+        "AboutMe": "I am a web developer with a passion for creating beautiful and functional websites."
+    },
+    {
+        "id": "20521123",
+        "name": "Bùi Tống Minh Châu",
+        "age": "21",
+        "image": "./images/avt5.jpg",
+        "email": "20521123@gm.uit.edu.vn",
+        "phone": "5555555555",
+        "description": "Student",
+        "AboutMe": "I am a web developer with a passion for creating beautiful and functional websites."
+    }
+]

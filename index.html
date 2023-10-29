@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600;700&family=Noto+Sans+Kawi:wght@500&family=PT+Serif&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>jQuery Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-title">QUẢN LÝ THÔNG TIN THÀNH VIÊN</div>
+        <div class="header-button">     
+            <p class="click" id="infoTeam">Thành viên</p>
+            <hr>
+            <p class="click" id="generalInfo">Thông tin chung</p>
+        </div>
+    </header>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search Name">
+        <button class="search-button">Search</button>
+    </div>
+    <div class="InfoGroup">
+        <div class="text">THÔNG TIN CHUNG</div>
+        <div class="titleList1"><b>1. THÔNG TIN THÀNH VIÊN</b></div>
+        <ul class="member-list">
+            <table class="listItem">
+                <tr>
+                    <th>Họ và tên</th>
+                    <th>MSSV</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Trần Nhựt Phát</td>
+                    <td>21520390</td>
+                    <td>21520390@gm.uit.edu.vn</td>
+                </tr>
+                <tr>
+                    <td>Phạm Ngọc Quí</td>
+                    <td>21520419</td>
+                    <td>21520419@gm.uit.edu.vn</td>
+                </tr>
+                <tr>
+                    <td>Nguyễn Hoàng Quốc Bảo</td>
+                    <td>21520613</td>
+                    <td>21520613@gm.uit.edu.vn</td>
+                </tr>
+                <tr>
+                    <td>Nguyễn Đình Hoàng Phúc</td>
+                    <td>19522036</td>
+                    <td>19522036@gm.uit.edu.vn</td>
+                </tr>
+                <tr>
+                    <td>Bùi Tống Minh Châu</td>
+                    <td>20521123</td>
+                    <td>20521123@gm.uit.edu.vn</td>
+                </tr>
+            </table>
+        </ul>
+        <div class="titleList2"><b>2. THÔNG TIN MÔN HỌC</b></div>
+        <div class="sub-info">
+            <div><b>Mã môn học:</b> SE347.O11</div>
+            <div><b>Tên môn học:</b> Công nghệ Web và ứng dụng</div>
+            <div><b>Giảng viên:</b> Đặng Việt Dũng</div>
+            <div><b>Số tín chỉ:</b> 4</div>
+        </div>
+    </div>
+    <main class="info">
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
